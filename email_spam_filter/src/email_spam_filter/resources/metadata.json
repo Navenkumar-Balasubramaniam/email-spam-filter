@@ -1,0 +1,16 @@
+{
+  "package_name": "email_spam_filter",
+  "version": "0.1.0",
+  "trained_at": "2026-03-13T22:31:54.719240+00:00",
+  "spam_label": "spam",
+  "classes": [
+    "ham",
+    "spam"
+  ],
+  "metrics": {
+    "accuracy": 0.9385107425653194,
+    "precision_macro": 0.9391036850244077,
+    "recall_macro": 0.9376635257531064,
+    "f1_macro": 0.9382391590856061
+  }
+}
