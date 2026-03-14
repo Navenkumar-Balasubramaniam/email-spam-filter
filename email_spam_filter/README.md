@@ -339,3 +339,33 @@ text
 "URGENT: Your bank account has been suspended."
 "Can we reschedule our meeting?"
 ```
+
+## 📦 Package Published on TestPyPI
+
+The Email Spam Filter package has been successfully built and published to TestPyPI, allowing users to install and use it like any standard Python library.
+
+This demonstrates that the project is fully packaged, distributable, and reusable outside the development environment.
+
+### Install the Package
+
+You can install the package directly from TestPyPI using:
+
+```text
+pip install -i https://test.pypi.org/simple/ email-spam-filter
+```
+
+### Example Usage
+
+Once installed, the package can be imported and used in any Python script.
+
+```text
+
+from email_spam_filter import classify
+
+email = "Congratulations! You have won a free vacation."
+
+result = classify(email)
+
+print("Prediction:", result.label)
+print("Spam probability:", result.spam_probability)
+```
