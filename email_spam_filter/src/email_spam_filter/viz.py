@@ -4,6 +4,10 @@ from dataclasses import dataclass
 from typing import List, Optional, Sequence, Tuple
 
 import numpy as np
+import matplotlib
+
+matplotlib.use("Agg")
+
 import matplotlib.pyplot as plt  # type: ignore
 from sklearn.pipeline import Pipeline  # type: ignore
 
